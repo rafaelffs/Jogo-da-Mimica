@@ -200,7 +200,7 @@ namespace Assets.Connection
                     {
                         Id = reader.GetInt32(0),
                         Name = reader.GetString(1),
-                        Category = GetCategoryById(reader.GetInt32(2))
+                        Category = categories.FirstOrDefault(x => x.Id == reader.GetInt32(2))
                     };
                     listItems.Add(item);
                 }

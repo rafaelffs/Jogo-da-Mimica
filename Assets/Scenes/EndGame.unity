@@ -159,7 +159,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 455, y: -266}
-  m_SizeDelta: {x: 725.92236, y: 229.00574}
+  m_SizeDelta: {x: 456, y: 122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &150133730
 MonoBehaviour:
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Total Time:'
+  m_text: 'Tempo Total:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2919be7fecc43f1418980c1ee515b9b6, type: 2}
   m_sharedMaterial: {fileID: 8079033725067284653, guid: 2919be7fecc43f1418980c1ee515b9b6, type: 2}
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -91.49768, y: 0, z: -24.928452, w: 0}
+  m_margin: {x: -142.3509, y: 0, z: -24.928452, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -619,7 +619,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Total Jumps:'
+  m_text: 'Total de Pulos:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2919be7fecc43f1418980c1ee515b9b6, type: 2}
   m_sharedMaterial: {fileID: 8079033725067284653, guid: 2919be7fecc43f1418980c1ee515b9b6, type: 2}
@@ -682,7 +682,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -91.49768, y: 0, z: -105.49464, w: 0}
+  m_margin: {x: -91.49768, y: 0, z: -179.95819, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1449,7 +1449,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Correct Answers
+  m_Text: 'Respostas corretas:'
 --- !u!222 &1521318422
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1578,7 +1578,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -91.49768, y: 0, z: 0.5555487, w: 0}
+  m_margin: {x: -91.49768, y: 0, z: -39.400528, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1649,7 +1649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Correct Answers:'
+  m_text: 'Respostas certas:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2919be7fecc43f1418980c1ee515b9b6, type: 2}
   m_sharedMaterial: {fileID: 8079033725067284653, guid: 2919be7fecc43f1418980c1ee515b9b6, type: 2}
@@ -1862,31 +1862,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2212553039002765892, guid: 71da69997e2d10546a05410bef292b1b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.58438
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2212553039002765892, guid: 71da69997e2d10546a05410bef292b1b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1919.9996
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2212553039002765892, guid: 71da69997e2d10546a05410bef292b1b, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 949.039
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2212553039002765892, guid: 71da69997e2d10546a05410bef292b1b, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2212553039002765892, guid: 71da69997e2d10546a05410bef292b1b, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2212553039002765892, guid: 71da69997e2d10546a05410bef292b1b, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2212553039002765892, guid: 71da69997e2d10546a05410bef292b1b, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2212553039002765892, guid: 71da69997e2d10546a05410bef292b1b, type: 3}
       propertyPath: m_Pivot.x
@@ -2073,7 +2073,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -448, y: -266.00003}
-  m_SizeDelta: {x: 725.92236, y: 229.00574}
+  m_SizeDelta: {x: 456, y: 122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063765541
 MonoBehaviour:

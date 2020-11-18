@@ -26,7 +26,7 @@ public class EndGameScript : MonoBehaviour
     {
         txtCorrectAnswersCount.text = CorrectAnswers.Count.ToString();
         txtTotalJumpsCount.text = TotalJumps.ToString();
-        txtTimeTotalCount.text = TotalTime.ToString() + " second(s)";
+        txtTimeTotalCount.text = TotalTime.ToString() + " segundo(s)";
         AddCorrectAnswers();
     }
 

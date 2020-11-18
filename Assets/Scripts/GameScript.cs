@@ -46,7 +46,7 @@ public class GameScript : MonoBehaviour
             if (timeRemaining > 0)
             {
                 timeRemaining -= Time.deltaTime;
-                txtTimeLeftCount.text = timeRemaining.ToString("f0") + " seconds";
+                txtTimeLeftCount.text = timeRemaining.ToString("f0") + " segundo(s)";
 
                 if (Convert.ToInt32(timeRemaining.ToString("f0")) == 5 && !soundHasPlayed)
                 {
@@ -119,7 +119,7 @@ public class GameScript : MonoBehaviour
         {
             Item item = MainMenuScript.db.GetRandomItem(listItems, EndGameScript.CorrectAnswers);
             this.txtSelectedItem.text = item.Name;
-            this.txtSelectedCategory.text = "Category: " + item.Category.FormattedName;
+            this.txtSelectedCategory.text = "Categoria: " + item.Category.FormattedName;
         }
     }
     public void CorrectAnswer_Click()

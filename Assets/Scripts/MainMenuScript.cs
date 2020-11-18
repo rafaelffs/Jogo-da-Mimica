@@ -73,7 +73,7 @@ public class MainMenuScript : MonoBehaviour
         }
         else
         {
-            warningText.text = "Please fix the settings";
+            warningText.text = "Arrume as configurações";
         }
         return false;
     }
@@ -88,7 +88,7 @@ public class MainMenuScript : MonoBehaviour
             return true;
         }
         else
-            warningText.text = "Please select at least one category";
+            warningText.text = "Selecione ao menos uma categoria";
         return false;
     }
 
